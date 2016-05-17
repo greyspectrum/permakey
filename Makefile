@@ -1,4 +1,4 @@
-obj-m += silk.o
+obj-m += permakey.o
 
 KERNELVER	?= $(shell uname -r)
 KERNELDIR	?= /lib/modules/$(KERNELVER)/build
